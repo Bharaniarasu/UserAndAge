@@ -1,5 +1,5 @@
-import styles from "./styles.css";
-import styled from "styled-components";
+import AddUser from "./components/users/addUser";
+import Card from "./components/ui/card";
 export default function App() {
   // const Content = styled.div`
   //   width: 50%;
@@ -17,5 +17,10 @@ export default function App() {
   //   }
   // `;
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <h2>Welcome</h2>
+      <AddUser />
+    </div>
+  );
 }
